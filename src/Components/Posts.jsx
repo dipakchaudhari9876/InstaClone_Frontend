@@ -13,7 +13,7 @@ const Posts = () => {
 
     return (
         <div className="postsContainer">
-            {postDetails.map((post) => {
+            {[...postDetails].reverse().map((post) => {
                 return (
                         <Post
                          key={post._id}
