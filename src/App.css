@@ -118,7 +118,7 @@
 
 .section{
   max-width: 100%;
-  max-height: 300px;
+  min-height: 299px;
 }
 .section>img{
   width: 100%;
